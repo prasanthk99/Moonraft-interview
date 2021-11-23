@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  color: white;
+}
+
+.info1,.info2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width:500px) {
+  .info1,.info1{
+    display: block;
+  }
+}
+
+
+
+
